@@ -1,0 +1,30 @@
+# ── Operating system junk ──────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ── Editors and IDEs ───────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*~
+
+# ── Node / build tooling (not required by this project, just in case) ──
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+.cache/
+
+# ── Local-only drafts ──────────────────────────────────────────────────
+# Your real CV is uploaded on purpose, so it is NOT ignored here.
+# Keep private notes out of the published site:
+notes-private/
+*.local.html
